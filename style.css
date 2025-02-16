@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('car-hero-image.jpg');
+    background-size: cover;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+/* Featured Posts */
+.featured-posts {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured-posts .post-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.featured-posts .post {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.featured-posts img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.featured-posts h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+/* Review Page */
+.car-review {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.car-review h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.car-review .review-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
